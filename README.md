@@ -14,15 +14,17 @@ Pour mettre en place ce projet, voici les étapes :
 
 1. Nous avons créé un dossier nommé `Projet-Data-Velos`.
 2. Le dossier comprends :
-   - crawler.py pour le code python
-   - requierements.txt pour les bibliothèques
-   - dockers-compose.yml pour lancer les services de docker
-   - dockerfile pour l’exécution du projet
-4. L'installation des dépendances du projet en exécutant la commande suivante :
-pip install -r requirements.txt
+   - `crawler.py` pour le code python
+   - `requierements.txt` pour les bibliothèques
+   - `dockers-compose.yml` pour lancer les services de docker
+   - `dockerfile` pour l’exécution du projet
+3. L'installation des dépendances du projet en exécutant la commande suivante :
 
-5. Lancement des services Docker en exécutant la commande suivante :
-docker-compose up -d
+`pip install -r requirements.txt`
+
+4. Lancement des services Docker en exécutant la commande suivante :
+
+`docker-compose up -d`
 
 
 ## Données
@@ -41,7 +43,7 @@ Ce projet se déroule en plusieurs étapes, comme décrit ci-dessous :
 - Une analyse préliminaire est effectuée pour évaluer l'exactitude, la complétude, la cohérence et la validité des données fournies.
 
 3. Alimenter la Base de Données
-- Les données sont alimentées dans un delta lake.
+- Les données sont alimentées dans un delta lake en utilisant la base de données Cassandra.
 
 4. Traitement des Données
 - Apache Spark MLib est utilisé comme ETL pour traiter les données afin de réaliser la classification, la régression, la clustering et la prédiction.
@@ -51,5 +53,7 @@ Ce projet se déroule en plusieurs étapes, comme décrit ci-dessous :
 
 ## Contributeurs
 Florence N KPEDJI
+
 Mohamed Rachidy RACHDA
+
 Valentin GUERARD
