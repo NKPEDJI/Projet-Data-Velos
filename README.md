@@ -35,5 +35,7 @@ Ce projet se déroule en plusieurs étapes, comme décrit ci-dessous :
 
 ## Contributeurs
 Florence N KPEDJI
+
 Rachda MOHAMED RACHIDY
+
 Valentin GUERARD
