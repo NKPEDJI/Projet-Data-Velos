@@ -5,9 +5,9 @@ Un grand compte de vente de vélos souhaite analyser les données de ses clients
 
 Dans le cas de ce client, la segmentation des clients pourrait être effectuée en fonction des critères suivants :
 - Nombre d'achats d'un modèle de vélos par sexe
-- Calcul du nombre d'achats des modèles par villes
-- Histogramme du nombre d'achats d'un modèle de vélos dans les villes
-- Top 1 du modèle le plus vendus dans chaque magasin (région)
+- Calcul du nombre d'achats des modèles par Etat
+- Histogramme du nombre d'achats d'un modèle de vélos par Etat
+- Top 1 du modèle le plus vendus dans chaque Etat
 
 ## Données
 Les sources de données sont des fichiers plats de type CSV :
